@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>School</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="slba.css">
+<style>
+</style> 
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar primarybgcolor">
+            <a href="index.html"><img class="logo" src="2.jpg" alt="Church Logo"></a>
+            <ul class="bar">
+                <li class="menubutton" onclick=showHamburger()><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="70"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                <li><a class="navbutton lighttext hideonmobile current" href="ministries.html">Ministries</a></li>
+                <li><a class="navbutton lighttext hideonmobile" href="give.html">Give</a></li>
+                <li><a class="navbutton lighttext hideonmobile" href="contact.html">Contact</a></li>
+                <li><a class="navbutton lighttext hideonmobile" href="about.html">About</a></li>
+                <li><a class="navbutton lighttext hideonmobile" href="index.html">Home</a></li>
+            
+            </ul>
+            <ul class="hamburger">
+                <li class="closebutton" onclick=hideHamburger()><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li><a class="hambutton lighttext current" href="ministries.html">Ministries</a></li>
+                <li><a class="hambutton lighttext" href="give.html">Give</a></li>
+                <li><a class="hambutton lighttext" href="contact.html">Contact</a></li>
+                <li><a class="hambutton lighttext" href="about.html">About</a></li>
+                <li><a class="hambutton lighttext" href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <div class="school">
+            <section class="lighttext school">
+                <h2 class="small">South Liberty Baptist Academy</h2>
+                <p class="small">
+                    "South Liberty Baptist Academy is a small K-12 Christian school
+                    operating as a ministry under the direction of the church. We
+                    utilize a philosophy and approach to education known as the
+                    “Charlotte Mason Method.” If you are interested in our
+                    school, we’d be happy to meet with you. Please email us
+                    <a class="cabincontactbutton" href="mailto:southlibertybaptist@gmail.com">southlibertybaptist@gmail.com</a>
+                </p>
+            </section>
+            <section class="teacher lighttext">
+                <h2 class="big">Meet Our teachers</h2>
+                <p class="small pictureleft">
+                    <img class="smallleft" src="IMG_6432.jpg" alt="Picture of Mrs.Fotter">
+                    Mrs.Fotter has been a teacher at South Liberty for 
+                    over 10 years. She has encouraged, and taught many
+                    kids over the years.
+                </p>
+                <p class="small pictureright">
+                    <img class="smallright" src="IMG_6433.jpg" alt="Picture Of Mrs.Colburn">
+                    Mrs.Colburn has started teaching at South Liberty since 2023.
+                </p>
+            </section>
+        </div>
+        <!--Service info-->
+        <section class="serviceinfo lighttext primarybgcolor">
+            <h2 class="small">Service Times</h2>
+            <p class="small">
+            Sunday Prayer Time: 9:45am<br>
+            Morning Worship: 10:30am<br>
+            Wednesday Bible Study For All Ages: 7pm
+            </p>
+            <p class="small">Address:<br>
+                <a class="serviceinfoaddress" href="https://maps.app.goo.gl/EeFimWKN4e4AX5rg6" target="_blank">2895 Burketville Rd. Liberty Maine</a>
+            </p>
+        </section>
+        <!-- Footer -->
+        <footer class="secondarybgcolor">
+            <div class="footercontent">
+                <p class="footercontact">
+                Call us at: <a class="footerbutton" href="tel:207.466.1611">207-466-1611</a><br>
+                Email us at: <a class="footerbutton" href="mailto:southlibertybaptist@gmail.com">southlibertybaptist@gmail.com</a>
+                </p>
+                <div class="copyright">© 2023 South Liberty Baptist Church. All Rights Reserved</div>
+                <div class="business">Built by Fotter Design Solutions</div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function showHamburger(){
+            const hamburger =document.querySelector('.hamburger')
+            hamburger.style.display = 'flex'
+        }
+        function hideHamburger(){
+        const hamburger =document.querySelector('.hamburger')
+        hamburger.style.display = 'none'
+        }
+    </script>
+
+</body>
+</html>

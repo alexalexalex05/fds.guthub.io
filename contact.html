@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="slba.css">
+<style>
+</style> 
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar primarybgcolor">
+            <a href="index.html"><img class="logo" src="2.jpg" alt="Church Logo"></a>
+            <ul class="bar">
+                <li class="menubutton" onclick=showHamburger()><svg xmlns="http://www.w3.org/2000/svg" height="120" viewBox="0 -960 960 960" width="70"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                <li><a class="navbutton lighttext hideonmobile" href="ministries.html">Ministries</a></li>
+                <li><a class="navbutton lighttext hideonmobile" href="give.html">Give</a></li>
+                <li><a class="navbutton lighttext hideonmobile current" href="contact.html">Contact</a></li>
+                <li><a class="navbutton lighttext hideonmobile" href="about.html">About</a></li>
+                <li><a class="navbutton lighttext hideonmobile" href="index.html">Home</a></li>
+            
+            </ul>
+            <ul class="hamburger">
+                <li class="closebutton" onclick=hideHamburger()><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li><a class="hambutton lighttext" href="ministries.html">Ministries</a></li>
+                <li><a class="hambutton lighttext" href="give.html">Give</a></li>
+                <li><a class="hambutton lighttext current" href="contact.html">Contact</a></li>
+                <li><a class="hambutton lighttext" href="about.html">About</a></li>
+                <li><a class="hambutton lighttext " href="index.html">Home</a></li>
+            </ul>
+        </div>
+    
+            <section class="contact">
+                <div class="contactbgcolor lighttext">
+                    <h2 class="big">Contact Information</h2>
+                    <div class="contactinformation lighttext">
+                        <h3 class="big">Phone Number:<a class="contactphone" href="tel:207.466.1611">207-466-1611</a><br>
+                            Email:<br><a class="contactemail" href="mailto:southlibertybaptist@gmail.com">southlibertybaptist@gmail.com</a>
+                        </h3>
+                    </div>
+                   
+                </div>
+            </section>
+        <!--Service info-->
+        <section class="serviceinfo lighttext primarybgcolor">
+            <h2 class="small">Service Times</h2>
+            <p class="small">
+            Sunday Prayer Time: 9:45am<br>
+            Morning Worship: 10:30am<br>
+            Wednesday Bible Study For All Ages: 7pm
+            </p>
+            <p class="small">Address:<br>
+                <a class="serviceinfoaddress" href="https://maps.app.goo.gl/EeFimWKN4e4AX5rg6" target="_blank">2895 Burketville Rd. Liberty Maine</a>
+            </p>
+        </section>
+        <!-- Footer -->
+        <footer class="secondarybgcolor">
+            <div class="footercontent">
+                <p class="footercontact">
+                Call us at: <a class="footerbutton" href="tel:207.466.1611">207-466-1611</a><br>
+                Email us at: <a class="footerbutton" href="mailto:southlibertybaptist@gmail.com">southlibertybaptist@gmail.com</a>
+                </p>
+                <div class="copyright">© 2023 South Liberty Baptist Church. All Rights Reserved</div>
+                <div class="business">Built by Fotter Design Solutions</div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function showHamburger(){
+            const hamburger =document.querySelector('.hamburger')
+            hamburger.style.display = 'flex'
+        }
+        function hideHamburger(){
+        const hamburger =document.querySelector('.hamburger')
+        hamburger.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
